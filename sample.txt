@@ -1,0 +1,228 @@
+ ^M
+^M
+~I
+^M
+^M
+~Z01
+screen 3^M
+mouse 1^M
+^M
+~Z01
+5 cls^M
+10 for i = 1 to 16^M
+20 print i,i*3.14159^M
+30 locate i,30:print int(2^^i)^M
+40 next i^M
+~Z03
+run^M
+~Z06
+screen 0^M
+; F7 to list files
+~:65
+~Z04
+load"x16speed.prg^M
+~Z01
+run^M
+run^M
+run^M
+~Z01
+run^M
+run^M
+run^M
+~Z01
+run^M
+run^M
+run^M
+~Z01
+run^M
+run^M
+run^M
+~Z08
+mouse 0^M
+~Z01
+load"fortune.bas"^M
+~Z02
+list^M
+~Z12
+1023 rr=1^M
+run^M
+~Z01
+; NO INSTRUCTIONS
+n
+~Z01
+2^M
+~Z01
+simon^M
+~Z01
+mary^M
+~Z02
+;  59 == F1 code, 61 == F3 code
+~:59
+~Z06
+~:59
+~Z06
+c^M
+~Z02
+~:59
+~Z06
+r^M
+~Z02
+~:59
+~Z06
+t^M
+~Z01
+~:59
+~Z06
+~:61
+~Z02
+soccer^M
+~Z04
+~:28
+~Z01
+~:59
+~Z06
+l^M
+~Z01
+~:59
+~Z06
+k^M
+~Z01
+~:61
+~Z01
+basketball^M
+~Z04
+; CTRL+ALT+DELETE
+~+29~+56~+83
+~Z03
+dos "cd:graphics^M
+dos "cd:xview^M
+; F7 to list files
+~:65
+~Z02
+load "xview.prg^M
+~Z01
+run^M
+; DOWN ARROW
+~:80
+~:80
+~:80
+~Z01
+~:80
+~:80
+~:80
+~Z01
+~:80
+~:80
+; ENTER folder
+~:28
+~Z02
+; down two . and ..
+~:80
+~:80
+~Z03
+; ENTER picture1
+~:28
+~Z04
+~:80
+~:80
+; ENTER picture2
+~:28
+~Z04
+~:80
+~:80
+~Z02
+; ENTER picture3
+~:28
+~Z04
+~:80
+~:80
+; ENTER picture4
+~:28
+~Z04
+~:80
+~:80
+~Z02
+; ENTER picture5
+~:28
+~Z05
+~:80
+~:80
+; ENTER picture6
+~:28
+~Z06
+~:80
+~:80
+; ENTER picture7
+~:28
+~Z07
+; CTRL+ALT+DELETE
+~+29~+56~+83
+~Z02
+; F7 to list files
+~:65
+~Z04
+load"x16edit.prg^M
+~Z01
+load"x16edit.prg^M
+~Z01
+run^M
+~Z03
+wow! a full featured text editor!!^M
+kudos to stefan jakobsson for this ;)  ^M^M
+~Z02
+let's open a file...
+~Z02
+; CTRL+R to open a file
+~+29~+19
+~-29~-19
+n
+sample3.txt^M
+~Z03
+and now we're editing it!  ^M
+~Z02
+what's this? basic with no line numbers?^M
+ok, this is a job for *** basload ***^M
+~Z04
+let's fire it up!!^M^M
+ ^M
+~Z08
+; CTRL+X to exit X16EDIT
+~+29~+45
+~-29~-45
+n^M
+load"basload.prg^M
+~Z02
+run^M
+~Z01
+!l^M
+~Z01
+sample3.txt^M
+~Z03
+list^M
+~Z02
+rem we just loaded this from a text file!^M
+0 cls^M
+~Z01
+run^M
+~Z01
+10^M
+~Z06
+; CTRL+ALT+DELETE
+~+29~+56~+83
+~Z03
+load"bubble4.bas^M
+list^M
+~Z06
+run^M
+~Z60
+; CTRL+ALT+DELETE
+~+29~+56~+83
+~Z02
+load"boxes.bas^M
+~Z04
+run^M
+~Z14
+; CTRL+ALT+DELETE
+~+29~+56~+83
+~Z02
+; END OF FILE
